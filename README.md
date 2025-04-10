@@ -9,7 +9,7 @@ Admin can add many categories and upload the news through the category by user-f
 
 ## How to install and run on your local system
 
-- git clone https://github.com/shohan-ch/laravel-news-portal.git
+- git clone https://github.com/IsaacTalb/quicktech.info.git
 - create a database with the name "newspaper" or check the env
 - php artisan migrate
 - php artisan serve (if the server opens up, http://127.0.0.1:8000, then we are good to go)

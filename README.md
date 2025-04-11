@@ -3,7 +3,7 @@
 
 ## About Laravel News Website
 
-This is a laravel 8 news portal website with an admin dashboard. In this news website, I have added a user comment section and users can search the news by different tags.
+This is a laravel 8 news portal website with an admin dashboard. (You can used versions from 7.3 to 8, for me I run this project with 7.3) In this news website, I have added a user comment section and users can search the news by different tags.
 
 Admin can add many categories and upload the news through the category by user-friendly administration dashboard.
 

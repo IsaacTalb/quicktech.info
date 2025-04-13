@@ -10,16 +10,16 @@ use App\Http\Controllers\admin\Auth\RegisteredUserController;
 use App\Http\Controllers\admin\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/admin/register', [RegisteredUserController::class, 'create'])
-//     ->middleware('guest:admin')
-//     ->name('admin.register');
+Route::get('/admin/register', [RegisteredUserController::class, 'create'])
+    ->middleware('guest:admin')
+    ->name('admin.register');
 
-// Route::post('/admin/register', [RegisteredUserController::class, 'store'])
-//     ->middleware('guest:admin');
+Route::post('/admin/register', [RegisteredUserController::class, 'store'])
+    ->middleware('guest:admin');
 
-Route::get('/admin/register', function () {
-    return redirect('/');
-});
+// Route::get('/admin/register', function () {
+//     return redirect('/');
+// });
 
 Route::get('/admin/login', [AuthenticatedSessionController::class, 'create'])
     ->middleware('admin.guest:admin')
@@ -28,21 +28,21 @@ Route::get('/admin/login', [AuthenticatedSessionController::class, 'create'])
 Route::post('/admin/login', [AuthenticatedSessionController::class, 'store'])
     ->middleware('admin.guest:admin');
 
-Route::get('/admin/forgot-password', [PasswordResetLinkController::class, 'create'])
-    ->middleware('admin.guest:admin')
-    ->name('admin.password.request');
+// Route::get('/admin/forgot-password', [PasswordResetLinkController::class, 'create'])
+//     ->middleware('admin.guest:admin')
+//     ->name('admin.password.request');
 
-Route::post('/admin/forgot-password', [PasswordResetLinkController::class, 'store'])
-    ->middleware('admin.guest:admin')
-    ->name('admin.password.email');
+// Route::post('/admin/forgot-password', [PasswordResetLinkController::class, 'store'])
+//     ->middleware('admin.guest:admin')
+//     ->name('admin.password.email');
 
-Route::get('/admin/reset-password/{token}', [NewPasswordController::class, 'create'])
-    ->middleware('admin.guest:admin')
-    ->name('admin.password.reset');
+// Route::get('/admin/reset-password/{token}', [NewPasswordController::class, 'create'])
+//     ->middleware('admin.guest:admin')
+//     ->name('admin.password.reset');
 
-Route::post('/admin/reset-password', [NewPasswordController::class, 'store'])
-    ->middleware('admin.guest:admin')
-    ->name('admin.password.update');
+// Route::post('/admin/reset-password', [NewPasswordController::class, 'store'])
+//     ->middleware('admin.guest:admin')
+//     ->name('admin.password.update');
 
 
 // Route::get('/admin/verify-email', [EmailVerificationPromptController::class, '__invoke'])

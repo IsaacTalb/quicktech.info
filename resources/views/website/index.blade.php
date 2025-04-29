@@ -5,18 +5,18 @@
 <div class="row" data-aos="fade-up">
     <div class="col-xl-8 stretch-card grid-margin">
         <div class="position-relative">
-            <img src="assets/images/dashboard/banner.jpg" alt="banner" class="img-fluid" />
+            <img src="assets/images/dashboard/nividia.webp" alt="banner" class="img-fluid" />
             <div class="banner-content">
                 <div class="badge badge-danger fs-12 font-weight-bold mb-3">
-                    global news
+                    Global news
                 </div>
-                <h1 class="mb-0">GLOBAL PANDEMIC</h1>
+                <h1 class="mb-0">GLOBAL AI NEWS</h1>
                 <h1 class="mb-2">
-                    Coronavirus Outbreak LIVE Updates: ICSE, CBSE Exams
-                    Postponed, 168 Trains
+                    Nvidia
+                    , the chipmaker that powers much of today’s artificial intelligence boom, on Monday announced a push to produce NVIDIA AI supercomputers entirely in the U.S. for the first time.
                 </h1>
                 <div class="fs-12">
-                    <span class="mr-2">Photo </span>10 Minutes ago
+                    <span class="mr-2">Photo </span>10 hours ago
                 </div>
             </div>
         </div>

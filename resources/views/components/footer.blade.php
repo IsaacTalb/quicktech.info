@@ -84,8 +84,8 @@
                 All rights reserved.
               </div>
               <div class="fs-14 font-weight-600">
-                Developed by <a href="https://www.duckcloud.info/" target="_blank"
-                  class="text-white">Duck Cloud Team</a>
+                Developed by <a href="https://www.quicktech.info/" target="_blank"
+                  class="text-white">Quick Tech Team</a>
               </div>
             </div>
           </div>

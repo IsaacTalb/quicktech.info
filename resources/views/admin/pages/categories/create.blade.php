@@ -40,12 +40,11 @@
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" name="name" id="name" class="form-control" value="{{old('name')}}">
+                            <!-- <input type="text" id="name" onkeydown="console.log(event.key)"> -->
                             @error('name')
                             <span class="text-danger">{{$message}}</span>
                             @enderror
                         </div>
-
-
                     </div>
                     <!-- /.card-body -->
 

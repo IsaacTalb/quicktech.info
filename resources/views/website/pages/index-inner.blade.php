@@ -177,7 +177,7 @@
           <div class="comment-box" id="comment-box">
             <div class="d-flex align-items-center">
               <div class="rotate-img">
-                <img src="../assets/images/faces/face6.jpg" alt="banner" class="img-fluid img-rounded mr-3" />
+                <!-- <img src="../assets/images/faces/face6.jpg" alt="banner" class="img-fluid img-rounded mr-3" /> -->
               </div>
               <div>
                 <p class="fs-12 mb-1 line-height-xs">

@@ -23,6 +23,18 @@ use Illuminate\Support\Facades\Auth;
     return view('welcome');
 }); */
 
+Route::get('/about-us', function () {
+    return view('website.about-us');
+})->name('about-us');
+
+Route::get('/contact-us', function () {
+    return view('website.contact-us');
+})->name('contact-us');
+
+Route::get('/privacy-policy', function () {
+    return view('website.privacy-policy');
+})->name('privacy-policy');
+
 Route::get('/user', function () {
     dump(Auth::user()->user_type);
 });

@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
 
           @forelse($articles->sortDesc() as $article)
 
@@ -43,7 +43,7 @@
                   <span class="mr-2">Photo </span>{{ $article->created_at->diffForHumans() }}
                 </p>
                 <p class="fs-15">
-                  {!! strip_tags( Str::words($article->description, 15, '...')) !!}
+                  {!! strip_tags( Str::words($article->description, 30, '...')) !!}
                 </p>
               </div>
             </div>
@@ -56,7 +56,7 @@
           @endforelse
         </div>
 
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
           <h2 class="mb-4 text-primary font-weight-600">
             Breaking News
           </h2>
@@ -81,7 +81,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="d-flex justify-content-center">{{ $articles->links() }}</div>

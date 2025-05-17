@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="google-adsense-account" content="ca-pub-8649713048907576">
     <title> @yield('title')</title>
     @yield('extra-css')
     <!-- plugin css for this page -->
@@ -18,6 +17,8 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- endinject -->
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3157572406863018"
+     crossorigin="anonymous"></script>
 </head>
 
 <body>

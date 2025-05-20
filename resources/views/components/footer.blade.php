@@ -15,11 +15,11 @@
             </h5>
             <ul class="social-media mb-3">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/www.quicktech.info/">
                   <i class="mdi mdi-facebook"></i>
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#">
                   <i class="mdi mdi-youtube"></i>
                 </a>
@@ -28,7 +28,7 @@
                 <a href="#">
                   <i class="mdi mdi-twitter"></i>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="col-sm-4">

@@ -53,38 +53,16 @@
                     <a class="nav-link" href="/privacy-policy">Privacy Policies</a>
                   </li>
     
-                   
-                      {{-- <li class="nav-item">
-                        <a class="nav-link" href="pages/magazine.html">MAGAZINE</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/business.html">Business</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/sports.html">Sports</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/art.html">Art</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/politics.html">POLITICS</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/travel.html">Travel</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pages/contactus.html">Contact</a>
-                      </li> --}}
                     </ul>
                   </div>
                 </div>
                 <ul class="social-media">
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/www.quicktech.info/">
                       <i class="mdi mdi-facebook"></i>
                     </a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="#">
                       <i class="mdi mdi-youtube"></i>
                     </a>
@@ -93,7 +71,7 @@
                     <a href="#">
                       <i class="mdi mdi-twitter"></i>
                     </a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
